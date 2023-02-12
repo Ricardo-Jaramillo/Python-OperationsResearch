@@ -44,3 +44,5 @@ print(x_solution)
 
 obj = c.solution.get_objective_value()
 print(obj)
+
+print(c.write('problem2_out.lp'))
